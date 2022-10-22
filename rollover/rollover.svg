@@ -1,0 +1,12 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <g>
+    <path d="M 208.31 265.83 L 213.92 208.33 L 190.56 208.33 C 185.04 208.33 180.56 203.85 180.56 198.33 L 180.56 141.61 C 180.56 136.09 185.04 131.61 190.56 131.61 L 342.52 131.61 C 348.04 131.61 352.52 136.09 352.52 141.61 L 352.52 198.33 C 352.52 203.85 348.04 208.33 342.52 208.33 L 243.05 208.99 L 208.31 265.83 Z" style=""></path>
+    <text style="fill: rgb(255, 247, 247); font-size: 20px; white-space: pre;" x="200" y="174.61">Is anybody here?</text>
+  </g>
+
+  <g>
+  <text x="80" y="290" style="white-space: pre; fill: rgb(51, 51, 51); font-size: 32px;">¡Hola, Unoverso!</text>  
+</g>
+
+</svg>
