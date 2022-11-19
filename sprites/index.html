@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animacion de sprite sheet</title>
+    <style>
+        body{
+            font-family: sans-serif ;
+
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .spritesheet{
+            margin: auto;
+            width: 480px;
+            height: 240px;
+            border: 2px solid black;background-image: url(spritesheet.png);
+            animation: mX 2s steps(10) infinite,
+                        mY 4s steps(2);
+        }
+        
+        /*Animacion horizontal*/
+        @keyframes mX{
+            100%{
+                background-position-x: -480px;
+            }
+        }
+        @keyframes mY{
+            from{background-position-y: 480px;}
+            to{background-position-y: 480px;}
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Animacion CSS</h1>
+    <p>&angsph;</p>
+    <div class="spritesheet"></div>
+</body>
+</html>
